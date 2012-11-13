@@ -1,0 +1,105 @@
+{
+    "alternate_url": "", 
+    "author": "flipline_studios", 
+    "author_link": "https://www.mochimedia.com/community/profile/flipline_studios", 
+    "categories": [
+        "Action", 
+        "Adventure", 
+        "Fighting", 
+        "Shooting"
+    ], 
+    "category": "Action", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": {
+        "Attack": "S", 
+        "Drop Weapon": "D", 
+        "Jump": "A", 
+        "fire": "na", 
+        "jump": "na", 
+        "movement": "arrow"
+    }, 
+    "controls": [
+        [
+            "Attack", 
+            "S"
+        ], 
+        [
+            "Drop Weapon", 
+            "D"
+        ], 
+        [
+            "Jump", 
+            "A"
+        ], 
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "arrow"
+        ]
+    ], 
+    "created": "2010-12-21T13:43:49-08:00", 
+    "description": "When a routine treasure hunt goes awry, McCoy is transformed into a walking cactus by the ancient Curse of Thorns.  McCoy\u2019s mission is to return the Thorned Emerald to its true home. If he fails, the curse will continue until he is a lifeless, stone cactus.\r\n\r\nRun, jump, and punch your way through an army of Enemigos sent by the monstrous Hex Hatfield. Throughout the many dangerous areas, you will find and master a barrage of weapons from razor-sharp machetes to giant bazookas. As you travel, you will uncover missing map pieces that will guide you to the source of the curse. Master the art of \u201cEnemigo Juggling\u201d to steal their weapons and money. You can then use your spoils to upgrade all your different fighting stats.\r\n\r\nCan you become the toughest Cactus in town, and break the ancient Curse of Thorns?", 
+    "developer": "flipline_studios", 
+    "developer_url": "https://www.mochimedia.com/community/profile/flipline_studios", 
+    "feed_approval_created": "2011-04-12T10:17:05-08:00", 
+    "game_tag": "5b11984509387fa1", 
+    "game_url": "http://www.mochimedia.com/games/cactus-mccoy", 
+    "height": "480", 
+    "instructions": "", 
+    "key_mappings": "", 
+    "languages": [
+        "en"
+    ], 
+    "leaderboard_enabled": true, 
+    "metascore": 54.08, 
+    "name": "Cactus McCoy", 
+    "rating": "Everyone", 
+    "recommendation": 0, 
+    "recommended": false, 
+    "resolution": "608x480", 
+    "screen1_thumb": "http://games.mochiads.com/c/g/cactus-mccoy/screen1_thumb.jpg", 
+    "screen1_url": "http://games.mochiads.com/c/g/cactus-mccoy/screen1.jpg", 
+    "screen2_thumb": "http://games.mochiads.com/c/g/cactus-mccoy/screen2_thumb.jpg", 
+    "screen2_url": "http://games.mochiads.com/c/g/cactus-mccoy/screen2.jpg", 
+    "screen3_thumb": "http://games.mochiads.com/c/g/cactus-mccoy/screen3_thumb.jpg", 
+    "screen3_url": "http://games.mochiads.com/c/g/cactus-mccoy/screen3.jpg", 
+    "screen4_thumb": "http://games.mochiads.com/c/g/cactus-mccoy/screen4_thumb.jpg", 
+    "screen4_url": "http://games.mochiads.com/c/g/cactus-mccoy/screen4.jpg", 
+    "slug": "cactus-mccoy", 
+    "swf_file_size": 6738470, 
+    "swf_url": "http://games.mochiads.com/c/g/cactus-mccoy/cactusmccoy.swf", 
+    "tags": [
+        "platformer", 
+        "beat-em-up", 
+        "brawl", 
+        "brawler", 
+        "shooter", 
+        "run-and-gun", 
+        "melee", 
+        "side-scrolling", 
+        "sidescroller", 
+        "adventure", 
+        "cactus", 
+        "cactus mccoy", 
+        "western", 
+        "spaghetti western", 
+        "exploration", 
+        "treasure hunter", 
+        "en"
+    ], 
+    "thumbnail_large_url": null, 
+    "thumbnail_url": "http://games.mochiads.com/c/g/cactus-mccoy/_thumb_100x100.jpg", 
+    "updated": "2011-04-12T10:17:05-08:00", 
+    "uuid": "f68b09f0-b7e8-34a5-bf86-cfb9504bafc3", 
+    "video_url": "http://www.youtube.com/watch?v=sjaVX-DLGYY&feature=player_embedded", 
+    "width": "608", 
+    "zip_url": "http://games.mochiads.com/c/g/cactus-mccoy.zip"
+}

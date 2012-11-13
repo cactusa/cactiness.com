@@ -1,0 +1,98 @@
+{
+    "achievements_enabled": false, 
+    "alternate_url": "http://www.flipline.com/games/cactusmccoy2/index.html", 
+    "author": "flipline_studios", 
+    "author_link": "https://www.mochimedia.com/community/profile/flipline_studios", 
+    "categories": [
+        "Action", 
+        "Adventure", 
+        "Fighting", 
+        "Shooting"
+    ], 
+    "category": "Adventure", 
+    "coins_enabled": null, 
+    "coins_revshare_enabled": null, 
+    "control_scheme": "{\"A\": \"Jump\", \"fire\": \"na\", \"Down Arrow\": \"Duck\", \"jump\": \"na\", \"S\": \"Attack\", \"movement\": \"arrow\"}", 
+    "controls": [
+        [
+            "A", 
+            "Jump"
+        ], 
+        [
+            "Down Arrow", 
+            "Duck"
+        ], 
+        [
+            "S", 
+            "Attack"
+        ], 
+        [
+            "fire", 
+            "na"
+        ], 
+        [
+            "jump", 
+            "na"
+        ], 
+        [
+            "movement", 
+            "arrow"
+        ]
+    ], 
+    "created": "2011-09-13T09:39:50-08:00", 
+    "description": "Cactus McCoy returns for a brand-new epic adventure!  After a struggle with rival treasure hunter Ella Windstorm, McCoy learns of the ruins of Calavera and the riches it holds in the distant lands to the south.  When an ancient enemy appears and kidnaps Ella, McCoy sets out on an epic journey across the continent to find Ella and claim the treasure of Calavera.  Once again, McCoy will have to run, jump, and fight his way through swarms of enemies across diverse areas, using anything he can find along the trail to help him reach the treasure.", 
+    "developer": "flipline_studios", 
+    "developer_url": "https://www.mochimedia.com/community/profile/flipline_studios", 
+    "feed_approval_created": "2011-10-06T10:09:22-08:00", 
+    "game_tag": "44923c42c8a81a76", 
+    "game_url": "http://www.mochimedia.com/games/cactus-mccoy-2", 
+    "height": 480, 
+    "instructions": "Use the arrow keys to move, A to jump, S to attack.  More information can be found in the in-game tutorial, and all keys can be changed in the Controls menu.", 
+    "key_mappings": "", 
+    "languages": [
+        "en"
+    ], 
+    "leaderboard_enabled": false, 
+    "metascore": 87.47, 
+    "name": "Cactus McCoy 2", 
+    "rating": "Teen", 
+    "recommendation": 4, 
+    "recommended": true, 
+    "resolution": "608x480", 
+    "screen1_thumb": "http://games.mochiads.com/c/g/cactus-mccoy-2/screen1_thumb.jpg", 
+    "screen1_url": "http://games.mochiads.com/c/g/cactus-mccoy-2/screen1.jpg", 
+    "screen2_thumb": "http://games.mochiads.com/c/g/cactus-mccoy-2/screen2_thumb.jpg", 
+    "screen2_url": "http://games.mochiads.com/c/g/cactus-mccoy-2/screen2.jpg", 
+    "screen3_thumb": "http://games.mochiads.com/c/g/cactus-mccoy-2/screen3_thumb.jpg", 
+    "screen3_url": "http://games.mochiads.com/c/g/cactus-mccoy-2/screen3.jpg", 
+    "screen4_thumb": "http://games.mochiads.com/c/g/cactus-mccoy-2/screen4_thumb.jpg", 
+    "screen4_url": "http://games.mochiads.com/c/g/cactus-mccoy-2/screen4.jpg", 
+    "slug": "cactus-mccoy-2", 
+    "swf_file_size": 9815623, 
+    "swf_url": "http://games.mochiads.com/c/g/cactus-mccoy-2/cactusmccoy2.swf", 
+    "tags": [
+        "cactus", 
+        "mccoy", 
+        "spaghetti", 
+        "western", 
+        "fighting", 
+        "action", 
+        "adventure", 
+        "platformer", 
+        "desert", 
+        "wild west", 
+        "jungle", 
+        "brawler", 
+        "2D", 
+        "sidescroller", 
+        "sidescrolling", 
+        "en"
+    ], 
+    "thumbnail_large_url": null, 
+    "thumbnail_url": "http://games.mochiads.com/c/g/cactus-mccoy-2/_thumb_100x100.jpg", 
+    "updated": "2011-11-30T07:24:34-08:00", 
+    "uuid": "33ac37f8-a6bc-3df1-ac6e-84d2eaa83745", 
+    "video_url": null, 
+    "width": 608, 
+    "zip_url": "http://games.mochiads.com/c/g/cactus-mccoy-2.zip"
+}

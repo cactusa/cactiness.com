@@ -1,0 +1,576 @@
+
+/* imports */
+@import url(group.css);
+@import url(asap-fontfacekit/stylesheet.css);
+@import url(BPreplay-fontfacekit/stylesheet.css);
+@import url(footer.css);
+
+
+
+/* Defaults */
+*{
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+html, body {
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	min-height: 100%;
+	
+	font-family: BPreplayRegular, Arial, Helvetica, sans-serif;
+	min-width: 420px;
+}
+/* End Defaults */
+
+
+
+html{
+	/* CSS3 Gradients */
+	background: rgb(161,219,255); /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ExZGJmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUzJSIgc3RvcC1jb2xvcj0iI2NiZWJmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMGY5ZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  rgba(161,219,255,1) 0%, rgba(203,235,255,1) 53%, rgba(240,249,255,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(161,219,255,1)), color-stop(53%,rgba(203,235,255,1)), color-stop(100%,rgba(240,249,255,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(161,219,255,1) 0%,rgba(203,235,255,1) 53%,rgba(240,249,255,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(161,219,255,1) 0%,rgba(203,235,255,1) 53%,rgba(240,249,255,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(161,219,255,1) 0%,rgba(203,235,255,1) 53%,rgba(240,249,255,1) 100%); /* IE10+ */
+	background: linear-gradient(top,  rgba(161,219,255,1) 0%,rgba(203,235,255,1) 53%,rgba(240,249,255,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a1dbff', endColorstr='#f0f9ff',GradientType=0 ); /* IE6-8 */
+}
+
+
+/* Environmental elements - clouds, sun and flying vulture */
+body{
+	background: url(/img/cloud-long.png) 95% 15% no-repeat, 
+				url(/img/cloud-fat.png) 6% 50% no-repeat,
+				url(/img/sun2.png)  0% 20% no-repeat;
+	position: relative;
+	z-index: -3;
+}
+@-ms-keyframes flying{
+	0%   {right: 100%; 	top: 50%;}
+	25%  {right: 75%; 	top: 40%;}
+	50%  {right: 50%; 	top: 30%;}
+	75%  {right: 25%; 	top: 20%;}
+	100% {right: 0%; 	top: 10%;}
+}
+@-moz-keyframes flying{
+	0%   {right: 100%; 	top: 50%;}
+	25%  {right: 75%; 	top: 40%;}
+	50%  {right: 50%; 	top: 30%;}
+	75%  {right: 25%; 	top: 20%;}
+	100% {right: 0%; 	top: 10%;}
+}
+@-o-keyframes flying{
+	0%   {right: 100%; 	top: 50%;}
+	25%  {right: 75%; 	top: 40%;}
+	50%  {right: 50%; 	top: 30%;}
+	75%  {right: 25%; 	top: 20%;}
+	100% {right: 0%; 	top: 10%;}
+}
+@-webkit-keyframes flying{
+	0%   {right: 100%; 	top: 50%;}
+	25%  {right: 75%; 	top: 40%;}
+	50%  {right: 50%; 	top: 30%;}
+	75%  {right: 25%; 	top: 20%;}
+	100% {right: 0%; 	top: 10%;}
+}
+@keyframes flying{
+	0%   {right: 100%; 	top: 50%;}
+	25%  {right: 75%; 	top: 40%;}
+	50%  {right: 50%; 	top: 30%;}
+	75%  {right: 25%; 	top: 20%;}
+	100% {right: 0%; 	top: 10%;}
+}
+#vulture{
+	position: absolute;
+	z-index: -2;
+	top: 50%;
+	background: url(/img/vulture.png) no-repeat;
+	width: 50px;
+	height: 60px;
+
+	-moz-animation: flying 40s linear 0s infinite normal;
+	-o-animation: flying 40s linear 0s infinite normal;
+	-webkit-animation: flying 40s linear 0s infinite normal;
+	-ms-animation: flying 40s linear 0s infinite normal;
+	animation: flying 40s linear 0s infinite normal;
+}
+/* End Environmental elements - clouds, sun and flying vulture */
+
+
+
+
+#wrapper{
+	max-width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+
+
+/* Navigation */
+nav{
+	float: right;
+}
+nav li{
+	position: relative;
+	display: inline-block;
+	margin: -60px -35px -20px -35px;
+}
+nav a{
+	font-family: BPreplayBold, Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	color: #FFF;
+	padding: 30px 30px 175px 30px;
+	text-shadow: 0px -1px 0 #333;
+}
+	/*Preloading hover image of main nav*/
+	nav:before{
+		background: url(/img/buttonhover.png),
+					url(/img/buttonpressed1.png);
+		display: none;
+	}
+#active{
+	background: url(/img/buttonpressed1.png) 50% 0 no-repeat;
+}
+.button1{
+	z-index: 2;
+}
+.button2{
+	top: -20px;
+	z-index: 1;
+}
+.button3{
+	z-index: 2;
+}
+.button4{
+	top: -30px;
+	z-index: 1;
+}
+.button5{
+	top: -20px;
+	z-index: 0;
+}
+.button6{
+	top: -15px;
+	z-index: 1;
+	
+	margin-right: -15px;
+}
+.button1, .button2, .button3, .button4, .button5, .button6{
+	padding: 100px 45px 175px 45px;
+	background: url(/img/button1.png) 50% 0 no-repeat;
+}
+		.button1:hover, .button2:hover, .button3:hover, .button4:hover, .button5:hover, .button6:hover{
+			background: url(/img/buttonhover.png) 50% 0 no-repeat;
+		}
+/*End Navigation*/
+
+
+
+
+/* Branding */
+#logo{
+	display: block;
+	width: 134px;
+	padding-top: 173px;
+	background: url(/img/cactus-logo.png) no-repeat;
+	
+	color: #669933;
+	text-decoration: none;
+	font-family: BPreplayRegular, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 1.1em;
+	float: left;
+}
+@media all and (max-width: 913px){
+	#logo{
+		display: none;
+	}
+}
+/* End Branding */
+
+
+
+
+/* Sidebar */
+
+#sidebar{
+	margin: 60px 0 0 0;
+	position: relative;
+	float: left;
+	width: 170px;
+	border: 10px solid #598527;
+	border-radius: 90px;
+	background: #b0e179;
+	box-shadow: 0 0 100px 0 #598527 inset;
+}
+#sidebar:before{
+	position: absolute;
+	z-index: 0;
+	top: -75px;
+	display: block;
+	width: 147px;
+	height: 137px;
+	content: "";
+
+	background: url(/img/thorn1.png) 0 0 no-repeat;
+
+}
+#sidebar:after{
+	position: absolute;
+	z-index: -1;
+	bottom: -30px;
+	left: 70px;
+	display: block;
+	width: 200px;
+	height: 40px;
+	content: "";
+	background-color: #45671e;
+	border: 10px solid #385318;
+	box-shadow: 0 0 50px 0 #385318 inset;
+
+	-webkit-border-radius: 50%;
+	-moz-border-radius:    50%;
+	border-radius:         50%;
+
+	-ms-transform: rotate(20deg); /* IE 9 */
+	-webkit-transform: rotate(20deg); /* Safari and Chrome */
+	-o-transform: rotate(20deg); /* Opera */
+	-moz-transform: rotate(20deg); /* Firefox */
+	transform: rotate(20deg);
+
+		/* Undoing .group class entries*/
+		visibility: visible;
+		clear: none;
+}
+#sidebar ul{
+	position: relative;
+	z-index: 0;
+	padding: 30px 0;
+	text-align: center;
+}
+#sidebar li{
+	color: #333;
+	font-family: BPreplayBold, Arial, Helvetica, sans-serif;
+	line-height: 1.6em;
+}
+#sidebar a{
+	color: #333;
+	font-family: BPreplayRegular, Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	line-height: 1.6em;
+}
+#sidebar a:hover{
+	text-decoration: underline;
+}
+@media all and (max-width: 951px){
+	#sidebar{
+		display: none;
+	}
+}
+/* End Sidebar*/
+
+
+
+
+
+/* Content */
+
+
+#contentwrapper{
+	position: relative;
+	float: right;
+	margin: 0 auto -148px auto;
+	padding: 35px 45px 150px;
+	background: url(/img/thorn1.png) 0 0 repeat-y,
+				url(/img/thorn2.png) 0.4% 0 repeat-y,
+				url(/img/thorn1.png) 100% 0 repeat-y,
+				url(/img/thorn2.png) 100% 0 repeat-y,
+				url(/img/thorn1.png) 0 0 repeat-x,
+				url(/img/thorn2.png) 0 0 repeat-x;
+	border-top-right-radius: 220px;
+	border-top-left-radius: 220px;
+}
+#contentwrapper:before{
+	position: absolute;
+	z-index: 0;
+	top: -20px;
+	left: -10px;
+	display: block;
+	width: 179px;
+	height: 183px;
+	content: "";
+	background: url(/img/cactus-bloom-left.png) 0 0 no-repeat;
+}
+#contentwrapper:after{
+	position: absolute;
+	z-index: 1;
+	top: -40px;
+	right: -20px;
+	display: block;
+	width: 212px;
+	height: 205px;
+	content: "";
+	background: url(/img/button1.png) 0 0 no-repeat;
+	overflow: hidden;
+	/* Undoing .group class entries*/
+		visibility: visible;
+		clear: none;
+}
+#content{
+	margin: 0 auto -148px auto;
+	padding: 80px 50px 170px 50px;
+	max-width: 700px;
+	border: 15px solid #598527;
+	border-top-right-radius: 90px;
+	border-top-left-radius: 90px;
+	border-radius: 90px 90px 0 0;
+	background: #b0e179;
+	box-shadow: 0 0 100px 0 #598527 inset;
+	
+	color: #333;
+}
+#content a{
+	color: #886700;
+	font-family: BPreplayBold, Arial, Helvetica, sans-serif;
+}
+#content h1{
+	font-family: BPreplayBold, Arial, Helvetica, sans-serif;
+	font-size: 1.6em;
+	margin: 0 0 60px 0;
+	text-shadow: 0px 1px 0 #ffff99;
+}
+#content h2{
+	font-family: BPreplayRegular, Arial, Helvetica, sans-serif;
+	margin: 40px 0 20px 0;
+	font-size: 1.4em;
+	line-height: 1.4;
+}
+#content h3{
+	font-family: BPreplayItalic, Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	line-height: 1.4;
+	margin: 35px 0 15px 0;
+}
+#content p{
+	font-family: BPreplayRegular, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	line-height: 1.6em;
+	margin: 0 0 20px 0;
+}
+.note{
+	color: #555;
+	border: 2px dashed #666;
+	padding: 10px 25px;
+}
+b{
+	font-family: BPreplayBold, Arial, Helvetica, sans-serif;
+}
+i{
+	font-family: BPreplayItalic, Arial, Helvetica, sans-serif;
+}
+#content dl, #content dt, #content dd{
+	font-family: BPreplayRegular, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	line-height: 1.6em;
+}
+#content dl{
+	margin: 10px 0;
+}
+#content dt{
+
+}
+#content dd{
+	width: 75%;
+	margin: 0 auto;
+}
+#content ul li{
+	line-height: 1.6em;
+	margin: 0 0 10px 0;
+	padding: 0 0 10px 50px;
+	background: url(/img/list-spines.png) 0% 0% no-repeat;
+	clear: both;
+}
+.uses p {
+	max-width: 70%;
+}
+.uses p:nth-of-type(2n+1){
+	clear: both;
+	border-left: 3px #629000 solid;
+	border-radius: 10px;
+	padding: 0 10px 0 20px;
+}
+.uses p:nth-of-type(2n){
+	float: right;
+	clear: both;
+	border-right: 3px #629000 solid;
+	border-radius: 10px;
+	padding: 0 10px 0 20px;
+}
+
+
+
+	/*Image raplacements*/
+	#sunicon{
+		background: url(/img/sun-icon.png) 0 0 no-repeat;
+		width: 80px;
+		height: 80px;
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+	#tempicon{
+		background: url(/img/termometer.png) 0 0 no-repeat;
+		width: 80px;
+		height: 80px;
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+	#dropsicon{
+		background: url(/img/water-drops.png) 0 0 no-repeat;
+		width: 80px;
+		height: 80px;
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+	/*End Image replacements*/
+
+
+
+	/*Worpress posts styling*/
+	.post{
+		position: relative;
+		margin: 0 0 50px 0;
+		padding: 25px 25px 5px 25px;
+		border-left: 3px #629000 solid;
+		border-right: 3px #629000 solid;
+		border-radius: 2em;
+	}
+	.post .comments{
+		display: none;
+	}
+	.post .date{
+		padding-right: 8px;
+		position: absolute;
+		top: -16px;
+		left: 23px;
+		border-bottom: 1px #629000 solid;
+		border-right: 1px #629000 solid;
+		border-radius: 0 0 13px 0;
+	}
+	#content .post h2{
+		display: inline-block;
+		margin: 15px 0 30px 0;
+	}
+	.post .author{
+		display: none;
+	}
+	.post a{
+		color: #886700;
+	}
+	.post img{
+		display: block;
+		border: 1px solid #598527;
+		box-shadow: 0 0 3px 0 #598527;
+	}
+	.alignright{
+		float: right;
+		margin: 5px 0 15px 25px;
+	}
+	.alignleft{
+		float: left;
+		margin: 5px 25px 15px 0;
+	}
+	/* End Worpress posts styling*/
+
+
+
+
+	/* Image Captions - CSS-tricks */
+figure{
+  	position: relative;
+  	overflow: hidden;
+	border: 1px solid #598527;
+	box-shadow: 0 0 3px 0 #598527;
+}
+figure img {
+	display: block;
+}
+.nostyle{
+	border: 0px;
+	box-shadow: none;
+}
+.nostyle:before{
+	visibility: hidden;
+}
+.figureleft{
+	float: left;
+	margin: 5px 25px 15px 0;
+}
+.figureright{
+	float: right;
+	margin: 5px 0 15px 25px;
+}
+.figurehomepage{
+	max-width: 465px;
+	margin: 30px auto;
+}
+figcaption{
+	position: absolute;
+	background: rgba(255,255,255,0.75);
+	color: #333;
+	padding: 10px 20px;
+	
+	opacity: 0;
+	bottom: -30%;
+	left: 0;
+	-webkit-transition: all 0.6s ease;
+	-moz-transition:    all 0.6s ease;
+	-o-transition:      all 0.6s ease;
+	transition: 		all 0.6s ease;
+}
+figure:hover figcaption {
+	opacity: 1;
+	bottom: 0;
+}
+figure:before {
+	content: "?";
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	background: rgba(255,255,255,0.75);
+	color: black;
+	width: 24px;
+	height: 24px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius:    12px;
+	border-radius:         12px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 24px;
+	/* Only Fx 4 supporting transitions on psuedo elements so far... */
+	-webkit-transition: all 0.6s ease;
+	-moz-transition: 	all 0.6s ease;
+	-o-transition: 		all 0.6s ease;
+	transition: 		all 0.6s ease;
+	opacity: 0.75;
+}
+figure:hover:before {
+  	opacity: 0;
+}
+	/* End Image Captions*/
+
+
+/* End Content*/

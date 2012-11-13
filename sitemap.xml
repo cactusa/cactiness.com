@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://cactiness.com/</loc>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://cactiness.com/fun/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://cactiness.com/facts/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://cactiness.com/tips/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://cactiness.com/uses/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://cactiness.com/about/</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://cactiness.com/fun/have-a-drink/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cactiness.com/fun/why-did-the-cactus-cross-the-road/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cactiness.com/fun/football-fans-joke/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cactiness.com/fun/life-is-like-a-cactus/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cactiness.com/fun/hello-world/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cactiness.com/fun/CactusMcCoy1/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cactiness.com/fun/CactusMcCoy2/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cactiness.com/uses/food-and-drink/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cactiness.com/uses/ornamental/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cactiness.com/uses/cosmetics/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cactiness.com/uses/medical/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cactiness.com/uses/psychoactive/</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cactiness.com/uses/construction/</loc>
+  <priority>0.64</priority>
+</url>
+</urlset>
