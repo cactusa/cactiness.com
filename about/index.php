@@ -23,7 +23,7 @@
                 <br/>
                 The website that I intend to create will be an eye candy full of unique, entertaining and fun content such as jokes, images, videos, short articles. The website’s graphics will create the feeling that cacti are truly idolized. This effect will be achieved by the use of topical to cacti elements throughout the design of each page such as thorns, colour and environment.</p>
                 <h2>Additional information:</h2>
-                <p>For the creation of this website were used either original material or referenced external content only. If you find an unreferenced or unapproved piece of content on the website, please <a href="http://portfolio.vladthecactus.me.uk/contact/">contact me</a> and I will promptly resolve the issue.</p>
+                <p>For the creation of this website were used either original material or referenced external content only. If you find an unreferenced or unapproved piece of content on the website, please <a href="https://portfolio-cactusa.c9.io/contact/">contact me</a> and I will promptly resolve the issue.</p>
 
             </div><!--End content-->
     	</div><!--End contentwrapper-->

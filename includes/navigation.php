@@ -8,7 +8,7 @@
                 <ul>';
                     if ($this_page == "home"){
                         echo '
-                    <li class="button1" id="active"><a href="http://cactiness.com/">Home</a></li>';
+                    <li class="button1" id="active"><a href="/">Home</a></li>';
                     }else{
                         echo '
                     <li class="button1"><a href="http://cactiness.com/">Home</a></li>';
@@ -53,5 +53,5 @@
             </nav>';
             ?>
         	
-            <a id="logo" href="http://cactiness.com/">cactiness.com</a>
+            <a id="logo" href="/">cactiness.com</a>
         </header>

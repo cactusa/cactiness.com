@@ -8,7 +8,7 @@
             <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/social.php');?>
             <dl class="footernav">
                 <dt>Navigation</dt>
-                	<dd><a href="http://cactiness.com/">Home</a></dd>
+                	<dd><a href="/">Home</a></dd>
                     <dd><a href="/fun/">Fun</a></dd>
                     <dd><a href="/facts/">Facts</a></dd>
                     <dd><a href="/tips/">Tips</a></dd>
@@ -26,7 +26,7 @@
                     <dd>typeface</dd>
                     <dd>BPreplay</dd>
                     <dd>design &amp; content</dd>
-                    <dd><a href="http://portfolio.vladthecactus.me.uk/">Vladislav Altanov</a></dd>
+                    <dd><a href="https://portfolio-cactusa.c9.io/">Vladislav Altanov</a></dd>
                 	<dd>CMS</dd>
                     <dd>WordPress</dd>
                     <dd>tools</dd>
